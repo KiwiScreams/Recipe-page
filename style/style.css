@@ -85,6 +85,12 @@ h1
     font-weight: 400;
     margin-top: 70px;
     font-family: "young-serif";
+    transition: 0.3s;
+}
+h1:hover
+{
+    text-shadow: 0 0 3px #000;
+    transition: 0.3s;
 }
 p
 {
@@ -99,6 +105,7 @@ p
     margin-top: 32px;
     padding: 28px;
     border-radius: 12px;
+    margin-bottom: 32px;
 }
 h3
 {
@@ -243,10 +250,11 @@ h2
     {
         width: 100%;
         height: auto;
+        position: relative;
+        z-index: 3;
     }
     .img-conteiner img
     {
-        border-radius: 0;
         width: 100%;
     }
     .recipe-conteiner
@@ -254,6 +262,7 @@ h2
         width: 100%;
         padding: 0;
         margin: 0;
+        position: relative;
     }
     .preparation-content
     {
