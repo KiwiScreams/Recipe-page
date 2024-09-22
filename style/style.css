@@ -6,39 +6,31 @@
     box-sizing: border-box;
     list-style-type: none;
 }
-/* fonts */
-
-/* young-serif */
 @font-face
 {
     font-family: "young-serif";
     src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
-/* outfit */
 @font-face
 {
     font-family: "outfit";
     src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
-/* outfit-regular */
 @font-face
 {
     font-family: "outfit-regular";
     src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf);
 }
-/* outfit-semibold */
 @font-face
 {
     font-family: "outfit-semibold";
     src: url(../assets/fonts/outfit/static/Outfit-SemiBold.ttf);
 }
-/* outfit-bold */
 @font-face
 {
     font-family: "outfit-bold";
     src: url(../assets/fonts/outfit/static/Outfit-Bold.ttf);
 }
-/* fonts end */
 body
 {
     background-color: #f3e5d7;
